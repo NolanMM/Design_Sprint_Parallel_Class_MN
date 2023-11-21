@@ -28,7 +28,7 @@
 // Test Case I: Pattern.size() || numThreads > hardware::numthreads
         // Test Case 1: Pattern.size() = numThreads < hardware::numthreads
         std::vector<std::string> patterns = { "Horatio", "and", "Hamlet", "God"};
-        const int numThreads1 = 4;
+        const int numThreads = 4;
         //
         // Case Test 2 Pattern.size() > numThreads < hardware::numthreads
         std::vector<std::string> patterns1 = { "Horatio", "and", "Hamlet", "God", "question", "To", "sleep", "death", "King","or"};
@@ -55,10 +55,10 @@
 // Define test mode to test for performance
         // ** Note ** : const bool MISD the Numthread always = patterns sizes
         std::vector<std::string> Design = { "SISD", "SIMD", "MISD", "MIMD"};
-        const bool SISD = true;
+        const bool SISD = false;
         const bool SIMD = true;
-        const bool MISD = true;
-        const bool MIMD = true;         
+        const bool MISD = false;
+        const bool MIMD = false;
 //
 
 // Function to stream large file using type BufIt defined type alias as a char type to iterator over all character in ifstream in and using rdbuf() function to read the alias type
