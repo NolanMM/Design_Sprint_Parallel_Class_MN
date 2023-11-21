@@ -89,10 +89,11 @@ int main() {
     int* results_count_all_words_in_segment = new int[numThreads]();
     int** results_count_for_each_pattern = new int* [numThreads];
     int totalCount = 0;
+    int sizepatterns = patterns.size();
 
     // Allocate memory for the results count for each words have size equal to patterns.size() store the results in 2D array
     for (int i = 0; i < numThreads; i++) {
-        results_count_for_each_pattern[i] = new int[patterns.size()]();
+        results_count_for_each_pattern[i] = new int[sizepatterns];
     }
 
     // Loop through all the thread to split the original text to each chunks
@@ -109,10 +110,11 @@ int main() {
         // Store back input string for each chunk to the string array
         chunk_char_each_threads[i] = text.substr(start, end - start);
     }
-
     // Loop though all the threads to assign the task with their specific input - results location to write/read
     for (int i = 0; i < numThreads; i++) {
-        threads[i] = std::thread(countWordsInSegment,chunk_char_each_threads[i], patterns, results_count_all_words_in_segment[i], results_count_for_each_pattern[i], patterns.size());
+        threads[i] = std::thread([&, i]() {
+            countWordsInSegment(chunk_char_each_threads[i], patterns, results_count_all_words_in_segment[i], results_count_for_each_pattern[i], sizepatterns);
+            });
     }
     // Loop though all the threads to call join method to make main threads wait for all threads finish their works
     for (auto& thread : threads) {
@@ -130,13 +132,13 @@ int main() {
         for (int j = 0; j < numThreads; j++) {
             patternTotalCount += results_count_for_each_pattern[j][i];
         }
-        std::cout << "Occurrences of pattern '" << patterns[i] << "': " << patternTotalCount << std::endl;
+        std::cout << patternTotalCount << ": " << patterns[i] << std::endl;
     }
-    std::cout << "Total word count: " << totalCount << std::endl;
+    std::cout << "Total word count: " << totalCount << " words" << std::endl;
 
-    // Stop the clock and print out results time
     auto endTime = std::chrono::high_resolution_clock::now();
-    std::cout << "Total time: " << (endTime - startTime).count() << " seconds" << std::endl;
+    std::chrono::duration<double> totalTime = endTime - startTime;
+    std::cout << "Total time: " << totalTime.count() << " seconds" << std::endl;
 
     // Delete all the memory allocated before to avoid memory leak
     delete[] results_count_all_words_in_segment;
