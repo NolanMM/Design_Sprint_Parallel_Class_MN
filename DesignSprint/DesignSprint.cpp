@@ -18,7 +18,7 @@
 
 // Test For file size
         // Test Input Files
-        const std::string inputfile = "Hamlet.txt";
+        const std::string inputfile = "Large.txt";
         const std::string inputfile_small = "Hamlet.txt";
         const std::string inputfile_medium = "Hamlet.txt";
         const std::string inputfile_large = "Hamlet.txt";
@@ -27,8 +27,8 @@
 
 // Test Case I: Pattern.size() || numThreads > hardware::numthreads
         // Test Case 1: Pattern.size() = numThreads < hardware::numthreads
-        std::vector<std::string> patterns = { "Horatio", "and", "Hamlet", "God"};
-        const int numThreads = 4;
+        std::vector<std::string> patterns6 = { "Horatio", "and", "Hamlet", "God"};
+        const int numThreads6 = 4;
         //
         // Case Test 2 Pattern.size() > numThreads < hardware::numthreads
         std::vector<std::string> patterns1 = { "Horatio", "and", "Hamlet", "God", "question", "To", "sleep", "death", "King","or"};
@@ -48,15 +48,15 @@
         const int numThreads5 = 28;
         //Denmark,ourselves,funeral,dirge,marriage
         // Test Case 6: Pattern.size() < numThreads > hardware::numthreads
-        std::vector<std::string> patterns6 = { "Horatio", "and", "Hamlet", "God", "question", "To", "sleep", "death", "King", "or", "that", "nothing", "eyes", "speak", "myself", "cock", "of", "Denmark", "ourselves", "funeral", "dirge", "marriage", "son", "him", "will", "again"};
-        const int numThreads6 = 50;
+        std::vector<std::string> patterns = { "Horatio", "and", "Hamlet", "God", "question", "To", "sleep", "death", "King", "or", "that", "nothing", "eyes", "speak", "myself", "cock", "of", "Denmark", "ourselves", "funeral", "dirge", "marriage", "son", "him", "will", "again"};
+        const int numThreads = 25;
 
 //
 // Define test mode to test for performance
         // ** Note ** : const bool MISD the Numthread always = patterns sizes
         std::vector<std::string> Design = { "SISD", "SIMD", "MISD", "MIMD"};
-        const bool SISD = false;
-        const bool SIMD = true;
+        const bool SISD = true;
+        const bool SIMD = false;
         const bool MISD = false;
         const bool MIMD = false;
 //

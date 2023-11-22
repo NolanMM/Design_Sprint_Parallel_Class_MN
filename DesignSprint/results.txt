@@ -1,0 +1,864 @@
+Record
+Mode: SISD
+Pattern_Size: 4
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 4
+Total_Word: 32004
+Total_time: 0.040985 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 10
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 3
+Total_Word: 32004
+Total_time: 0.059495 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 2
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 8
+Total_Word: 32004
+Total_time: 0.045091 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 14
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 14
+Total_Word: 32004
+Total_time: 0.075147 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 24
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 28
+Total_Word: 32004
+Total_time: 0.117338 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 26
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 50
+Total_Word: 32004
+Total_time: 0.125188 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 4
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 4
+Total_Word: 32005
+Total_time: 0.034487 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 10
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 3
+Total_Word: 32005
+Total_time: 0.037559 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 2
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 8
+Total_Word: 32005
+Total_time: 0.021256 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 14
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 14
+Total_Word: 32013
+Total_time: 0.039056 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 24
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 28
+Total_Word: 32019
+Total_time: 0.043892 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 26
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 50
+Total_Word: 32034
+Total_time: 0.054104 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 4
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 4
+Total_Word: 32004
+Total_time: 0.046318 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 10
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 3
+Total_Word: 32004
+Total_time: 0.042093 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 2
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 8
+Total_Word: 32004
+Total_time: 0.035488 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 14
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 14
+Total_Word: 32004
+Total_time: 0.061754 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 24
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 28
+Total_Word: 32004
+Total_time: 0.057115 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 26
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 50
+Total_Word: 32004
+Total_time: 0.058653 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 4
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 4
+Total_Word: 32005
+Total_time: 0.019670 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 10
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 3
+Total_Word: 32005
+Total_time: 0.033500 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 2
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 8
+Total_Word: 32005
+Total_time: 0.019495 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 14
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 14
+Total_Word: 32013
+Total_time: 0.037364 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 24
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 28
+Total_Word: 32019
+Total_time: 0.050344 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 26
+Files_Name: Hamlet.txt
+Text_Size: 176785
+num_Threads: 50
+Total_Word: 32034
+Total_time: 0.047679 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 4
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 4
+Total_Word: 13607
+Total_time: 0.016500 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 10
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 3
+Total_Word: 13607
+Total_time: 0.025492 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 2
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 8
+Total_Word: 13607
+Total_time: 0.015869 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 14
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 14
+Total_Word: 13607
+Total_time: 0.030625 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 24
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 28
+Total_Word: 13607
+Total_time: 0.040566 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 26
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 50
+Total_Word: 13607
+Total_time: 0.046458 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 4
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 4
+Total_Word: 13609
+Total_time: 0.009858 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 10
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 3
+Total_Word: 13609
+Total_time: 0.017813 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 2
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 8
+Total_Word: 13611
+Total_time: 0.013175 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 14
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 14
+Total_Word: 13616
+Total_time: 0.022378 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 24
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 28
+Total_Word: 13627
+Total_time: 0.031021 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 26
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 50
+Total_Word: 13634
+Total_time: 0.041699 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 4
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 4
+Total_Word: 13607
+Total_time: 0.017626 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 10
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 3
+Total_Word: 13607
+Total_time: 0.022641 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 2
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 8
+Total_Word: 13607
+Total_time: 0.015639 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 14
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 14
+Total_Word: 13607
+Total_time: 0.027008 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 24
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 28
+Total_Word: 13607
+Total_time: 0.034992 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 26
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 50
+Total_Word: 13607
+Total_time: 0.038056 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 4
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 4
+Total_Word: 13609
+Total_time: 0.011339 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 10
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 3
+Total_Word: 13609
+Total_time: 0.017683 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 2
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 8
+Total_Word: 13611
+Total_time: 0.012454 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 14
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 14
+Total_Word: 13616
+Total_time: 0.021955 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 24
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 28
+Total_Word: 13627
+Total_time: 0.035391 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 26
+Files_Name: Small.txt
+Text_Size: 75684
+num_Threads: 50
+Total_Word: 13634
+Total_time: 0.040008 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 4
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 4
+Total_Word: 96012
+Total_time: 0.130144 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 10
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 3
+Total_Word: 96012
+Total_time: 0.186925 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 2
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 8
+Total_Word: 96012
+Total_time: 0.097697 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 14
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 14
+Total_Word: 96012
+Total_time: 0.208063 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 24
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 28
+Total_Word: 96012
+Total_time: 0.269658 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 26
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 50
+Total_Word: 96012
+Total_time: 0.285533 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 4
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 4
+Total_Word: 96014
+Total_time: 0.054283 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 10
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 3
+Total_Word: 96013
+Total_time: 0.074765 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 2
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 8
+Total_Word: 96017
+Total_time: 0.042655 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 14
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 14
+Total_Word: 96023
+Total_time: 0.077799 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 24
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 28
+Total_Word: 96034
+Total_time: 0.082897 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 26
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 50
+Total_Word: 96041
+Total_time: 0.089597 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 4
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 4
+Total_Word: 96012
+Total_time: 0.094240 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 10
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 3
+Total_Word: 96012
+Total_time: 0.107965 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 2
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 8
+Total_Word: 96012
+Total_time: 0.103762 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 14
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 14
+Total_Word: 96012
+Total_time: 0.113187 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 24
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 28
+Total_Word: 96012
+Total_time: 0.125527 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 26
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 50
+Total_Word: 96012
+Total_time: 0.128653 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 4
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 4
+Total_Word: 96014
+Total_time: 0.046522 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 10
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 3
+Total_Word: 96013
+Total_time: 0.089924 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 2
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 8
+Total_Word: 96017
+Total_time: 0.046622 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 14
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 14
+Total_Word: 96023
+Total_time: 0.073678 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 24
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 28
+Total_Word: 96034
+Total_time: 0.086011 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 26
+Files_Name: Medium.txt
+Text_Size: 530357
+num_Threads: 50
+Total_Word: 96041
+Total_time: 0.104284 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 4
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 4
+Total_Word: 704088
+Total_time: 0.742087 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 10
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 3
+Total_Word: 704088
+Total_time: 1.113263 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 2
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 8
+Total_Word: 704088
+Total_time: 0.637537 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 14
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 14
+Total_Word: 704088
+Total_time: 1.275813 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 24
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 28
+Total_Word: 704088
+Total_time: 1.768893 seconds
+
+Record
+Mode: SISD
+Pattern_Size: 26
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 50
+Total_Word: 704088
+Total_time: 1.849676 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 4
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 4
+Total_Word: 704091
+Total_time: 0.293714 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 10
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 3
+Total_Word: 704089
+Total_time: 0.512399 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 2
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 8
+Total_Word: 704093
+Total_time: 0.279298 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 14
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 14
+Total_Word: 704095
+Total_time: 0.441666 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 24
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 28
+Total_Word: 704103
+Total_time: 0.602952 seconds
+
+Record
+Mode: SIMD
+Pattern_Size: 26
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 50
+Total_Word: 704124
+Total_time: 0.557792 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 4
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 4
+Total_Word: 704088
+Total_time: 0.618251 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 10
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 3
+Total_Word: 704088
+Total_time: 0.656126 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 2
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 8
+Total_Word: 704088
+Total_time: 0.606425 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 14
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 14
+Total_Word: 704088
+Total_time: 0.694633 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 24
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 28
+Total_Word: 704088
+Total_time: 0.752939 seconds
+
+Record
+Mode: MISD
+Pattern_Size: 26
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 50
+Total_Word: 704088
+Total_time: 0.755424 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 4
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 4
+Total_Word: 704091
+Total_time: 0.307674 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 10
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 3
+Total_Word: 704089
+Total_time: 0.501858 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 2
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 8
+Total_Word: 704093
+Total_time: 0.274095 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 14
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 14
+Total_Word: 704095
+Total_time: 0.458290 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 24
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 28
+Total_Word: 704103
+Total_time: 0.580268 seconds
+
+Record
+Mode: MIMD
+Pattern_Size: 26
+Files_Name: Large.txt
+Text_Size: 3889291
+num_Threads: 50
+Total_Word: 704124
+Total_time: 0.585965 seconds
+
