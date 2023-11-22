@@ -21,7 +21,7 @@
     <ClCompile Include="Draft.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="Submit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TestPerformanceAllcasesDefined.cpp">
